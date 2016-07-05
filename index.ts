@@ -1,14 +1,18 @@
-import * as d3 from 'd3';
-import greeter from './greeter';
-import $ = require('jquery');
 import xs from 'xstream';
 import {run} from '@cycle/xstream-run';
-import {makeDOMDriver} from '@cycle/dom';
+import {makeDOMDriver, h1} from '@cycle/dom';
 
-$(() => {
-  $(document.body).html(greeter('World'));
+function main() {
+  const sinks = {
+    DOM: xs.periodic(1000).map(i =>
+      h1('' + i + ' seconds elapsed')
+      )
+  };
+  return sinks;
+}
 
-  var body = d3.select('body');
-  var div = body.append('div');
-  div.html('Hello, d3js');
-});
+const drivers: {[name: string]: Function} = {
+  DOM: makeDOMDriver('#app')
+}
+
+run(main, drivers);
