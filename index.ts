@@ -1,12 +1,16 @@
 import xs from 'xstream';
 import {run} from '@cycle/xstream-run';
-import {makeDOMDriver, h1} from '@cycle/dom';
+import {makeDOMDriver, div, input, p} from '@cycle/dom';
 
-function main() {
+function main(sources) {
   const sinks = {
-    DOM: xs.periodic(1000).map(i =>
-      h1('' + i + ' seconds elapsed')
-      )
+    DOM: sources.DOM.select('input').events('click')
+        .map(ev => ev.target.checked)
+        .startWith(false)
+        .map(toggled => div([
+          input({attrs: {type: 'checkbox'}}), 'Toggle me',
+          p(toggled ? 'ON' : 'off')
+          ]))
   };
   return sinks;
 }
