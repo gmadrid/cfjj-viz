@@ -1,0 +1,22 @@
+{
+  "name": "cfjj-viz",
+  "version": "1.0.0",
+  "description": "Visualization project for CFJJ",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmadrid/cfjj-viz.git"
+  },
+  "author": "George Madrid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmadrid/cfjj-viz/issues"
+  },
+  "homepage": "https://github.com/gmadrid/cfjj-viz#readme",
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}
