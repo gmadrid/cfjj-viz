@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/gmadrid/cfjj-viz#readme",
   "dependencies": {
+    "@cycle/dom": "^10.0.5",
+    "@cycle/xstream-run": "^3.0.3",
     "d3": "^4.1.0",
     "jquery": "^3.0.0",
-    "ts-loader": "^0.8.2"
+    "ts-loader": "^0.8.2",
+    "xstream": "^5.1.0"
   },
   "devDependencies": {
     "webpack": "^1.13.1"
