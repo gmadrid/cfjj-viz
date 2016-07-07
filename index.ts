@@ -1,47 +1,49 @@
 import xs from 'xstream';
 import {run} from '@cycle/xstream-run';
 import {makeDOMDriver, h, svg, div, input, p} from '@cycle/dom';
-
 import * as d3 from 'd3';
+
+import {generateRandomData} from './datagen'; 
 import {makeD3Driver} from './d3driver';
 
 function foobar(selector: string, data: any) {
-  console.log("INPUT: " + JSON.stringify(data));
+  console.log(JSON.stringify(data));
   let root = d3.select(selector)
 
   let color = d3.scaleOrdinal(d3.schemeCategory10);
 
-  root.style('background', 'green')
-            .attr('width', 500)
-            .attr('height', 350);
+  root.attr('width', 500)
+      .attr('height', 350);
+
   let circles = root.selectAll('circle') 
       .data(data);
 
   circles.enter()
       .append('circle')
-      .attr('r', (d, i) => { console.log('renter:' + i); return <number>d; })
+      .attr('r', 0)
       .attr('cx', (d, i) => { return 75 + i * 25 })
       .attr('cy', 80)
-
-  circles.attr('r', (d, i) => { console.log('r:' + i); return <number>d; })
-      .attr('fill', (d, i) => { console.log('fill:' + i); return color(i); });
+    .merge(circles)
+      .attr('fill', (d, i) => { return color(i); })
+      .transition(250)
+        .attr('r', (d, i) => { return <number>d; })
 
   circles.exit().remove();
 }
 
+const buttonName = '#randomButton'
+
 function main(sources) {
-  let thing = sources.DOM.select('#d3input').events('keyup')
-    .map(ev => { 
-            return ev.target.value.split(',').map(s => { return parseFloat(s) || null; }).filter(num => { return num != null });
-    })
-    .startWith([]);
+  let data$ = sources.DOM.select(buttonName).events('click')
+    .mapTo(generateRandomData());
+
   const sinks = {
     DOM: xs.of(div([
-      div([input('#d3input')]),
+      div([input(buttonName, {attrs: {type:'button', value: 'Generate random data'}})]),
       div([
         h('svg#d3svg')
       ])])),
-    D3: thing
+    D3: data$
   };
   return sinks;
 }
