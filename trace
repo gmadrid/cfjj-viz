@@ -1,0 +1,527 @@
+======== Resolving module 'xstream' from '/Users/gmadrid/Desktop/cfjj-viz/index.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'xstream' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/package.json'.
+'package.json' has 'typings' field 'index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'
+======== Module name 'xstream' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'. ========
+======== Resolving module '@cycle/xstream-run' from '/Users/gmadrid/Desktop/cfjj-viz/index.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module '@cycle/xstream-run' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/package.json'.
+'package.json' has 'typings' field 'lib/index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/index.d.ts'
+======== Module name '@cycle/xstream-run' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/index.d.ts'. ========
+======== Resolving module '@cycle/dom' from '/Users/gmadrid/Desktop/cfjj-viz/index.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module '@cycle/dom' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/package.json'.
+'package.json' has 'typings' field 'lib/index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'
+======== Module name '@cycle/dom' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+======== Resolving module 'd3' from '/Users/gmadrid/Desktop/cfjj-viz/index.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'd3' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/d3.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/d3.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/d3.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/d3/package.json'.
+'package.json' does not have 'types' field.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/d3/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/d3/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/d3/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@types/d3.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@types/d3.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@types/d3.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@types/d3/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@types/d3/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@types/d3/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@types/d3/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/d3.ts' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/d3.tsx' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/d3.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/d3/package.json' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/d3/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/d3/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/d3/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/@types/d3.ts' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/@types/d3.tsx' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/@types/d3.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/@types/d3/package.json' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/@types/d3/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/@types/d3/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/node_modules/@types/d3/index.d.ts' does not exist.
+File '/Users/gmadrid/node_modules/d3.ts' does not exist.
+File '/Users/gmadrid/node_modules/d3.tsx' does not exist.
+File '/Users/gmadrid/node_modules/d3.d.ts' does not exist.
+File '/Users/gmadrid/node_modules/d3/package.json' does not exist.
+File '/Users/gmadrid/node_modules/d3/index.ts' does not exist.
+File '/Users/gmadrid/node_modules/d3/index.tsx' does not exist.
+File '/Users/gmadrid/node_modules/d3/index.d.ts' does not exist.
+File '/Users/gmadrid/node_modules/@types/d3.ts' does not exist.
+File '/Users/gmadrid/node_modules/@types/d3.tsx' does not exist.
+File '/Users/gmadrid/node_modules/@types/d3.d.ts' does not exist.
+File '/Users/gmadrid/node_modules/@types/d3/package.json' does not exist.
+File '/Users/gmadrid/node_modules/@types/d3/index.ts' does not exist.
+File '/Users/gmadrid/node_modules/@types/d3/index.tsx' does not exist.
+File '/Users/gmadrid/node_modules/@types/d3/index.d.ts' does not exist.
+File '/Users/node_modules/d3.ts' does not exist.
+File '/Users/node_modules/d3.tsx' does not exist.
+File '/Users/node_modules/d3.d.ts' does not exist.
+File '/Users/node_modules/d3/package.json' does not exist.
+File '/Users/node_modules/d3/index.ts' does not exist.
+File '/Users/node_modules/d3/index.tsx' does not exist.
+File '/Users/node_modules/d3/index.d.ts' does not exist.
+File '/Users/node_modules/@types/d3.ts' does not exist.
+File '/Users/node_modules/@types/d3.tsx' does not exist.
+File '/Users/node_modules/@types/d3.d.ts' does not exist.
+File '/Users/node_modules/@types/d3/package.json' does not exist.
+File '/Users/node_modules/@types/d3/index.ts' does not exist.
+File '/Users/node_modules/@types/d3/index.tsx' does not exist.
+File '/Users/node_modules/@types/d3/index.d.ts' does not exist.
+File '/node_modules/d3.ts' does not exist.
+File '/node_modules/d3.tsx' does not exist.
+File '/node_modules/d3.d.ts' does not exist.
+File '/node_modules/d3/package.json' does not exist.
+File '/node_modules/d3/index.ts' does not exist.
+File '/node_modules/d3/index.tsx' does not exist.
+File '/node_modules/d3/index.d.ts' does not exist.
+File '/node_modules/@types/d3.ts' does not exist.
+File '/node_modules/@types/d3.tsx' does not exist.
+File '/node_modules/@types/d3.d.ts' does not exist.
+File '/node_modules/@types/d3/package.json' does not exist.
+File '/node_modules/@types/d3/index.ts' does not exist.
+File '/node_modules/@types/d3/index.tsx' does not exist.
+File '/node_modules/@types/d3/index.d.ts' does not exist.
+======== Module name 'd3' was not resolved. ========
+======== Resolving module './d3driver' from '/Users/gmadrid/Desktop/cfjj-viz/index.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/d3driver'.
+File '/Users/gmadrid/Desktop/cfjj-viz/d3driver.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/d3driver.ts', result '/Users/gmadrid/Desktop/cfjj-viz/d3driver.ts'
+======== Module name './d3driver' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/d3driver.ts'. ========
+======== Resolving module './core' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/core'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/core.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/core.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/core.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/core.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/core.d.ts'
+======== Module name './core' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/core.d.ts'. ========
+======== Resolving module '@cycle/base' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module '@cycle/base' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/lib/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/xstream-run/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/package.json'.
+'package.json' has 'typings' field 'lib/index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'
+======== Module name '@cycle/base' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'. ========
+======== Resolving module './interfaces' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'
+======== Module name './interfaces' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'. ========
+======== Resolving module './DOMSource' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts'
+======== Module name './DOMSource' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts'. ========
+======== Resolving module './makeDOMDriver' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeDOMDriver'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeDOMDriver.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeDOMDriver.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeDOMDriver.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeDOMDriver.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeDOMDriver.d.ts'
+======== Module name './makeDOMDriver' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeDOMDriver.d.ts'. ========
+======== Resolving module './makeHTMLDriver' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.d.ts'
+======== Module name './makeHTMLDriver' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.d.ts'. ========
+======== Resolving module './mockDOMSource' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource.d.ts'
+======== Module name './mockDOMSource' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource.d.ts'. ========
+======== Resolving module './EventDelegator' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts'
+======== Module name './EventDelegator' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts'. ========
+======== Resolving module './hyperscript' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript.d.ts'
+======== Module name './hyperscript' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript.d.ts'. ========
+======== Resolving module './hyperscript-helpers' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript-helpers'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript-helpers.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript-helpers.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript-helpers.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript-helpers.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript-helpers.d.ts'
+======== Module name './hyperscript-helpers' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript-helpers.d.ts'. ========
+======== Resolving module '@cycle/base' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module '@cycle/base' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/package.json'.
+'package.json' has 'typings' field 'lib/index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'
+======== Module name '@cycle/base' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'. ========
+======== Resolving module 'xstream' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'xstream' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/package.json'.
+'package.json' has 'typings' field 'index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'
+======== Module name 'xstream' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'. ========
+======== Resolving module './interfaces' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'
+======== Module name './interfaces' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'. ========
+======== Resolving module './DOMSource' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/makeHTMLDriver.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts'
+======== Module name './DOMSource' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts'. ========
+======== Resolving module '@cycle/base' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module '@cycle/base' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/@cycle/base/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/package.json'.
+'package.json' has 'typings' field 'lib/index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'
+======== Module name '@cycle/base' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/base/lib/index.d.ts'. ========
+======== Resolving module './DOMSource' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/mockDOMSource.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts'
+======== Module name './DOMSource' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/DOMSource.d.ts'. ========
+======== Resolving module 'xstream' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'xstream' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/node_modules/@types/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/node_modules/@types/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream/package.json' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream/index.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream/index.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/node_modules/@types/xstream/index.d.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/package.json'.
+'package.json' has 'typings' field 'index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'
+======== Module name 'xstream' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'. ========
+======== Resolving module './isolateModule' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule.d.ts'
+======== Module name './isolateModule' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule.d.ts'. ========
+======== Resolving module './interfaces' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'
+======== Module name './interfaces' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'. ========
+======== Resolving module './EventDelegator' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/isolateModule.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts'
+======== Module name './EventDelegator' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/EventDelegator.d.ts'. ========
+======== Resolving module './interfaces' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'
+======== Module name './interfaces' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'. ========
+======== Resolving module './interfaces' from '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/hyperscript-helpers.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'
+======== Module name './interfaces' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/@cycle/dom/lib/interfaces.d.ts'. ========
+======== Resolving module 'xstream' from '/Users/gmadrid/Desktop/cfjj-viz/d3driver.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module 'xstream' from 'node_modules' folder.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.ts' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.tsx' does not exist.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream.d.ts' does not exist.
+Found 'package.json' at '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/package.json'.
+'package.json' has 'typings' field 'index.d.ts' that references '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'.
+File '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts', result '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'
+======== Module name 'xstream' was successfully resolved to '/Users/gmadrid/Desktop/cfjj-viz/node_modules/xstream/index.d.ts'. ========
+index.ts(5,21): error TS2307: Cannot find module 'd3'.
