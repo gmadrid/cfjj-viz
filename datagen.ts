@@ -9,6 +9,7 @@
 // }
 
 export function generateRandomData() {
+  let currentId = 1;
   let result = [];
   ['white','latino','black','asian','mix','other'].forEach(race => {
     ['murder','robbery','nuisance','dui'].forEach(offense => {
@@ -17,6 +18,7 @@ export function generateRandomData() {
         let number = (Math.random() < 0.500) ? 0 : Math.floor(Math.random() * 249 + 1);
 
         result.push({
+          id: currentId++,
           race: race,
           offense: offense,
           stage: stage,

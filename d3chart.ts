@@ -1,26 +1,48 @@
 import * as d3 from 'd3';
+import * as d3hierarchy from 'd3-hierarchy'; 
+
+function SliceNDice(root: any, arr: any, keys: [string]) {
+	root.children = arr;
+}
+
+let color = d3.scaleOrdinal(d3.schemeCategory20);
 
 export function GenerateD3Chart(selector, data) {
+//  SliceNDice(rootObj, data, ['foo']);
+
   let root = d3.select(selector)
+      .attr('width', 600)
+      .attr('height', 600);
 
-  let color = d3.scaleOrdinal(d3.schemeCategory10);
+  // WARNING: Mutating input!!! Fix this.
+  data.push({id: '==r00t=='});
 
-  root.attr('width', 500)
-      .attr('height', 350);
+  let rootNode = d3.stratify()
+      .parentId(d => { if (d.id == '==r00t==') { return '' } else {return '==r00t=='}})
+      (data);
+  rootNode.sum(d => { return d.number; });
+  rootNode.sort((d1, d2) => { return d2.value - d1.value; });
 
-  let circles = root.selectAll('circle') 
-      .data(data);
+  let pack = d3.pack()
+      .padding(5)
+      .size([594, 594]);
+  let foo = pack(rootNode);
 
-  circles.enter()
-      .append('circle')
+  let nodeS = root.selectAll('circle')
+      .data(rootNode.descendants());
+
+  let nodeE = nodeS.enter()
+    .append('circle')
+      .attr('fill', d => { return color(d.id); })
+      .attr('cx', 300)
+      .attr('cy', 300)
       .attr('r', 0)
-      .attr('cx', (d, i) => { return 75 + i * 25 })
-      .attr('cy', 80)
-    .merge(circles)
-      .attr('fill', (d, i) => { return color(i); })
-      .transition(250)
-        .attr('r', (d, i) => { return d.cost / 10; })
+    .merge(nodeS);
 
-  circles.exit().remove();
+  nodeS.transition(250)
+      .attr('cx', d => { return d.x; })
+      .attr('cy', d => { return d.y; })
+      .attr('r', d => { return d.r; });
 
+  let nodeX = nodeS.exit().remove();
 }

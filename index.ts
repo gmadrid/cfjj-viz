@@ -10,7 +10,8 @@ const buttonName = '#randomButton'
 
 function main(sources) {
   let data$ = sources.DOM.select(buttonName).events('click')
-    .mapTo(generateRandomData());
+    .map(_ => { return generateRandomData(); })
+    .startWith(generateRandomData());
 
   const sinks = {
     DOM: xs.of(div([
