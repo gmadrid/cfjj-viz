@@ -3,8 +3,8 @@ import {run} from '@cycle/xstream-run';
 import {makeDOMDriver, h, svg, div, input, p} from '@cycle/dom';
 
 import {generateRandomData} from './datagen'; 
-import {makeD3Driver} from './d3driver';
 import {GenerateD3Chart} from './d3chart';
+import {makeD3Driver} from './d3driver';
 
 const buttonName = '#randomButton'
 
