@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import * as d3hierarchy from 'd3-hierarchy'; 
+//import * as d3hierarchy from 'd3-hierarchy'; 
 
 function SliceNDice(root: any, arr: any, keys: [string]) {
 	root.children = arr;
@@ -39,7 +39,7 @@ export function GenerateD3Chart(selector, data) {
       .attr('r', 0)
     .merge(nodeS);
 
-  nodeS.transition(250)
+  nodeS.transition(1500)
       .attr('cx', d => { return d.x; })
       .attr('cy', d => { return d.y; })
       .attr('r', d => { return d.r; });

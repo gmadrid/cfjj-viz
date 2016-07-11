@@ -18,7 +18,7 @@ export function generateRandomData() {
         let number = (Math.random() < 0.500) ? 0 : Math.floor(Math.random() * 249 + 1);
 
         result.push({
-          id: currentId++,
+          id: race + "|" + offense + "|" + stage,
           race: race,
           offense: offense,
           stage: stage,
