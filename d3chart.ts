@@ -50,13 +50,20 @@ function SliceNDice(arr: any, keys: [string]) {
 let color = d3.scaleOrdinal(d3.schemeCategory20);
 
 export function GenerateD3Chart(selector, data) {
+  // Configuration
   let animationDuration = 350;
-  let keyArray: [string] = ['race', 'stage'];
+  let keyArray: [string] = ['stage', 'race'];
+  let width = 600;
+  let height = 600;
+  let padding = 5;
+
   let h = SliceNDice(data, keyArray);
 
   let root = d3.select(selector)
-      .attr('width', 600)
-      .attr('height', 600);
+      .attr('width', width)
+      .attr('height', height);
+  let halfWidth = width / 2;
+  let halfHeight = height / 2;
 
   // WARNING: Mutating input!!! Fix this.
   data.push({id: '==r00t=='});
@@ -66,8 +73,8 @@ export function GenerateD3Chart(selector, data) {
   rootNode.sort((d1, d2) => { return d2.value - d1.value; });
 
   let pack = d3.pack()
-      .padding(5)
-      .size([594, 594]);
+      .padding(padding)
+      .size([width - padding - 1, height - padding - 1]);
   let foo = pack(rootNode);
 
   let descendants = rootNode.descendants();
@@ -78,8 +85,8 @@ export function GenerateD3Chart(selector, data) {
   nodeS.enter()
     .append('circle')
       .attr('fill', n => { return color(n.depth); })
-      .attr('cx', 300)
-      .attr('cy', 300)
+      .attr('cx', halfWidth)
+      .attr('cy', halfHeight)
       .attr('r', 0)
     .merge(nodeS)
     .transition().duration(animationDuration)
@@ -89,8 +96,8 @@ export function GenerateD3Chart(selector, data) {
 
   nodeS.exit()
     .transition().duration(animationDuration)
-      .attr('cx', 300)
-      .attr('cy', 300)
+      .attr('cx', halfWidth)
+      .attr('cy', halfHeight)
       .attr('r', 0)
       .remove();
 
@@ -100,8 +107,8 @@ export function GenerateD3Chart(selector, data) {
 
   textS.enter()
     .append('text')
-      .attr('x', 300)
-      .attr('y', 300)
+      .attr('x', halfWidth)
+      .attr('y', halfHeight)
       .attr('text-anchor', 'middle')
       .attr('alignment-baseline', 'middle')
       .style('font-family', 'sans-serif')
@@ -115,8 +122,8 @@ export function GenerateD3Chart(selector, data) {
       .attr('opacity', 1.0);
 
   textS.exit().transition().duration(animationDuration)
-      .attr('x', 300)
-      .attr('y', 300)
+      .attr('x', halfWidth)
+      .attr('y', halfHeight)
       .attr('opacity', 0.0)
       .remove();
 }
