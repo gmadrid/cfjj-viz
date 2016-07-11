@@ -1,5 +1,4 @@
 import * as d3 from 'd3';
-//import * as d3hierarchy from 'd3-hierarchy'; 
 
 function SliceNDice(root: any, arr: any, keys: [string]) {
 	root.children = arr;
@@ -29,20 +28,24 @@ export function GenerateD3Chart(selector, data) {
   let foo = pack(rootNode);
 
   let nodeS = root.selectAll('circle')
-      .data(rootNode.descendants());
+      .data(rootNode.descendants(), node => { return node.data.id; });
 
-  let nodeE = nodeS.enter()
+  nodeS.enter()
     .append('circle')
       .attr('fill', d => { return color(d.id); })
       .attr('cx', 300)
       .attr('cy', 300)
       .attr('r', 0)
-    .merge(nodeS);
-
-  nodeS.transition(1500)
+    .merge(nodeS)
+    .transition().duration(250)
       .attr('cx', d => { return d.x; })
       .attr('cy', d => { return d.y; })
       .attr('r', d => { return d.r; });
 
-  let nodeX = nodeS.exit().remove();
+  nodeS.exit()
+    .transition().duration(250)
+      .attr('cx', 300)
+      .attr('cy', 300)
+      .attr('r', 0)
+      .remove();
 }
