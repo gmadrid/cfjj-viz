@@ -1,35 +1,92 @@
 import xs from 'xstream';
 import {run} from '@cycle/xstream-run';
-import {makeDOMDriver, h, svg, div, input, p} from '@cycle/dom';
+import {makeDOMDriver, h, svg, div, form, input, p} from '@cycle/dom';
+import * as d3 from 'd3';
 
-import {generateRandomData} from './datagen'; 
+import {GenerateRandomData, VisData, VisDatum, CategoryNames} from './datagen'; 
 import {GenerateD3Chart} from './d3chart';
 import {makeD3Driver} from './d3driver';
 
+type Intent = {
+  // Message that the categories in the control form have changed.
+  changeCategories$: xs<any>,
+
+  // Stream with the data we display.
+  generateData$: xs<VisData>
+}
+
+type State = {
+  categories: Array<string>,
+  selectedCategories: Array<[string, string]>
+}
+
+type Model = {
+  data$: xs<VisData>,
+  state$: xs<State>
+}
+
+const popupClass = '.categoryPopup'
 const buttonName = '#randomButton'
 
-function intent(sources) {
-  let generateData$ = sources.DOM.select(buttonName).events('click').startWith(1);
+function intent(sources): Intent {
   return {
-    generateData$: generateData$
+    changeCategories$: sources.DOM.select(popupClass).events('change'),
+    generateData$: sources.DOM.select(buttonName).events('click')
   }
 }
 
-function model(intent) {
-  let data$ = intent.generateData$
-    .map(_ => { return generateRandomData(); });
-    
+function model(intent): Model {
+  let data$ = intent.generateData$.startWith(null)
+    .map(_ => { return GenerateRandomData(); });
+
+  let state$ = xs.combine(data$, intent.changeCategories$.startWith(null))
+    .map(c => {
+      console.log("foobarrrrr");
+      let [data, changeEvent] = c;
+      return {
+        categories: CategoryNames,
+        selectedCategories: []
+      };
+    });
+
   return {
+    state$: state$,
     data$: data$
   }
 }
 
-function htmlView(_) {
-  return xs.of(div([
+function selectForArray(name: string, optionStrings: Array<string>, lowIndex: number, highIndex: number, selectedIndex: number) {
+  let options = [h('option', { attrs: {value: '' } })];
+
+  d3.range(lowIndex, highIndex).forEach(i => {
+    let optionString = optionStrings[i];
+    options.push(h('option', { attrs: {value: optionString, selected: i == selectedIndex } }, optionString));
+  });
+
+  var select = h('select' + popupClass, options);
+
+  return select;
+}
+
+function control(state: State) {
+  let foo = selectForArray('foobar', state.categories, 0, state.categories.length, -1);
+
+  return div([
+    h('form', { attrs: { id: 'controlForm'} }, [foo])
+    ]);
+}
+
+function htmlView(model: Model): xs<any> {
+  return model.state$.map(s => {
+    return div([
       div([input(buttonName, {attrs: {type:'button', value: 'Generate random data'}})]),
+      control(s),
       div([
         h('svg#d3svg')
-      ])]));
+      ])
+    ])
+  });
+//  return xs.of(h('h3', 'Hi there.'));
 }
 
 function d3View(m) {

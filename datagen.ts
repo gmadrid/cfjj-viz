@@ -8,9 +8,23 @@
 //    number: 0-250
 // }
 
-export function generateRandomData() {
+export type VisDatum = {
+  id: string,
+
+  race: string,
+  offense: string,
+  stage: string,
+
+  cost: number,
+  number: number
+}
+export type VisData = Array<VisDatum>
+
+export let CategoryNames = ["Race", "Offense", "Stage"]
+
+export function GenerateRandomData() : VisData {
   let currentId = 1;
-  let result = [];
+  let result: VisData = [];
   ['White','Latino','Black','Asian','Mix','Other'].forEach(race => {
     ['Murder','Robbery','Drugs','DUI'].forEach(offense => {
       ['Arrest', 'Arraigned', 'Pre-trial', 'Post-trial'].forEach(stage => {

@@ -47,8 +47,6 @@ function SliceNDice(arr: any, keys: [string]) {
   }
 }
 
-let color = d3.scaleOrdinal(d3.schemeCategory20);
-
 export function GenerateD3Chart(selector, data) {
   // Configuration
   let animationDuration = 350;
@@ -58,6 +56,9 @@ export function GenerateD3Chart(selector, data) {
   let padding = 5;
 
   let h = SliceNDice(data, keyArray);
+  let cfjjColor = d3.scaleLinear()
+    .domain([0, keyArray.length])
+    .range(['#24567e', '#75c7f0']);
 
   let root = d3.select(selector)
       .attr('width', width)
@@ -84,7 +85,7 @@ export function GenerateD3Chart(selector, data) {
 
   nodeS.enter()
     .append('circle')
-      .attr('fill', n => { return color(n.depth); })
+      .attr('fill', n => { return cfjjColor(n.depth); })
       .attr('cx', halfWidth)
       .attr('cy', halfHeight)
       .attr('r', 0)
