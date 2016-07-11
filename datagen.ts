@@ -11,11 +11,11 @@
 export function generateRandomData() {
   let currentId = 1;
   let result = [];
-  ['white','latino','black','asian','mix','other'].forEach(race => {
-    ['murder','robbery','nuisance','dui'].forEach(offense => {
-      ['arrest', 'arraigned', 'pre-trial', 'post-trial'].forEach(stage => {
+  ['White','Latino','Black','Asian','Mix','Other'].forEach(race => {
+    ['Murder','Robbery','Drugs','DUI'].forEach(offense => {
+      ['Arrest', 'Arraigned', 'Pre-trial', 'Post-trial'].forEach(stage => {
         let cost = Math.floor(Math.random() * 400 + 100);
-        let number = (Math.random() < 0.500) ? 0 : Math.floor(Math.random() * 249 + 1);
+        let number = (Math.random() < 0.700) ? 0 : Math.floor(Math.random() * 249 + 1);
 
         result.push({
           id: race + "|" + offense + "|" + stage,

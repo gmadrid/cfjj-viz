@@ -6,3 +6,5 @@ export declare var scaleOrdinal: any
 export declare function hierarchy(arg:any);
 export declare function pack(): any;
 export declare function stratify(): any;
+
+export declare function map(): any;
