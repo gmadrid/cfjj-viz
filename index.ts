@@ -42,7 +42,8 @@ function model(intent): Model {
         categories: CategoryNames,
         selectedCategories: [<[string, string]>[CategoryNames[0], "bamsoo"]]
       };
-    });
+    })
+    .remember();
 
   return {
     state$: state$,
