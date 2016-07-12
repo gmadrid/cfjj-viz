@@ -43,7 +43,7 @@ function control(state: State) {
         unchosenCategories.size, 
         categoryName, 
         selects.length > 0));
-      selects.push(h('br');
+      selects.push(h('br'));
       unchosenCategories.delete(categoryName);
     }
   });
