@@ -1,11 +1,12 @@
 import xs from 'xstream';
 import {run} from '@cycle/xstream-run';
-import {makeDOMDriver, h, svg, div, form, input, p} from '@cycle/dom';
-import * as d3 from 'd3';
+import {makeDOMDriver} from '@cycle/dom';
 
 import {GenerateRandomData, VisData, VisDatum, CategoryNames} from './datagen'; 
-import {GenerateD3Chart} from './d3chart';
+import { d3View, GenerateD3Chart } from './d3chart';
 import {makeD3Driver} from './d3driver';
+import { buttonName, htmlView, popupClass } from './htmlview';
+import { Model } from './model';
 import {State} from './state';
 
 type Intent = {
@@ -15,14 +16,6 @@ type Intent = {
   // Stream with the data we display.
   generateData$: xs<VisData>
 }
-
-type Model = {
-  data$: xs<VisData>,
-  state$: xs<State>
-}
-
-const popupClass = '.categoryPopup'
-const buttonName = '#randomButton'
 
 function intent(sources): Intent {
   return {
@@ -49,43 +42,6 @@ function model(intent): Model {
     state$: state$,
     data$: data$
   }
-}
-
-function selectForArray(name: string, optionStrings: string[], lowIndex: number, highIndex: number, selectedIndex: number) {
-  let options = [h('option', { attrs: {value: '' } })];
-
-  d3.range(lowIndex, highIndex).forEach(i => {
-    let optionString = optionStrings[i];
-    options.push(h('option', { attrs: {value: optionString, selected: i == selectedIndex } }, optionString));
-  });
-
-  var select = h('select' + popupClass, options);
-
-  return select;
-}
-
-function control(state: State) {
-  let foo = selectForArray('foobar', state.categories, 0, state.categories.length, -1);
-
-  return div([
-    h('form', { attrs: { id: 'controlForm'} }, [foo])
-    ]);
-}
-
-function htmlView(model: Model): xs<any> {
-  return model.state$.map(s => {
-    return div([
-      div([input(buttonName, {attrs: {type:'button', value: 'Generate random data'}})]),
-      control(s),
-      div([
-        h('svg#d3svg')
-      ])
-    ])
-  });
-}
-
-function d3View(m) {
-  return xs.combine(m.data$, m.state$);
 }
 
 function main(sources) {

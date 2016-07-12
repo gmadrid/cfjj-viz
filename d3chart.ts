@@ -1,9 +1,14 @@
 import * as d3 from 'd3';
+import xs from 'xstream';
 
 import { VisData } from './datagen';
 import { State } from './state';
 
 const RootFakeKey = '==r00t==';
+
+export function d3View(m) {
+  return xs.combine(m.data$, m.state$);
+}
 
 function SliceNDice(arr: any, keys: string[]) {
   return PartitionChildren(null, arr, '', keys, -1)[0];
