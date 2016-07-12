@@ -1,8 +1,11 @@
 import * as d3 from 'd3';
 
+import { VisData } from './datagen';
+import { State } from './state';
+
 const RootFakeKey = '==r00t==';
 
-function SliceNDice(arr: any, keys: [string]) {
+function SliceNDice(arr: any, keys: string[]) {
   return PartitionChildren(null, arr, '', keys, -1)[0];
 
   function ArrayForKey(map, key) {
@@ -47,10 +50,12 @@ function SliceNDice(arr: any, keys: [string]) {
   }
 }
 
-export function GenerateD3Chart(selector, data) {
+export function GenerateD3Chart(selector, tpl: [VisData, State]) {
+  let [data, state] = tpl;
+
   // Configuration
   let animationDuration = 350;
-  let keyArray: [string] = ['stage', 'race'];
+  let keyArray: string[] = state.selectedCategories.map(c => { return c[0].toLowerCase(); });
   let width = 600;
   let height = 600;
   let padding = 5;
@@ -65,9 +70,6 @@ export function GenerateD3Chart(selector, data) {
       .attr('height', height);
   let halfWidth = width / 2;
   let halfHeight = height / 2;
-
-  // WARNING: Mutating input!!! Fix this.
-  data.push({id: '==r00t=='});
 
   let rootNode = d3.hierarchy(h);
   rootNode.sum(d => { return d.number; });

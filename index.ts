@@ -6,6 +6,7 @@ import * as d3 from 'd3';
 import {GenerateRandomData, VisData, VisDatum, CategoryNames} from './datagen'; 
 import {GenerateD3Chart} from './d3chart';
 import {makeD3Driver} from './d3driver';
+import {State} from './state';
 
 type Intent = {
   // Message that the categories in the control form have changed.
@@ -13,11 +14,6 @@ type Intent = {
 
   // Stream with the data we display.
   generateData$: xs<VisData>
-}
-
-type State = {
-  categories: Array<string>,
-  selectedCategories: Array<[string, string]>
 }
 
 type Model = {
@@ -39,13 +35,12 @@ function model(intent): Model {
   let data$ = intent.generateData$.startWith(null)
     .map(_ => { return GenerateRandomData(); });
 
-  let state$ = xs.combine(data$, intent.changeCategories$.startWith(null))
+  let state$: xs<State> = xs.combine(data$, intent.changeCategories$.startWith(null))
     .map(c => {
-      console.log("foobarrrrr");
       let [data, changeEvent] = c;
       return {
         categories: CategoryNames,
-        selectedCategories: []
+        selectedCategories: [<[string, string]>[CategoryNames[0], "bamsoo"]]
       };
     });
 
@@ -55,7 +50,7 @@ function model(intent): Model {
   }
 }
 
-function selectForArray(name: string, optionStrings: Array<string>, lowIndex: number, highIndex: number, selectedIndex: number) {
+function selectForArray(name: string, optionStrings: string[], lowIndex: number, highIndex: number, selectedIndex: number) {
   let options = [h('option', { attrs: {value: '' } })];
 
   d3.range(lowIndex, highIndex).forEach(i => {
@@ -86,11 +81,10 @@ function htmlView(model: Model): xs<any> {
       ])
     ])
   });
-//  return xs.of(h('h3', 'Hi there.'));
 }
 
 function d3View(m) {
-  return m.data$;
+  return xs.combine(m.data$, m.state$);
 }
 
 function main(sources) {
