@@ -92,12 +92,12 @@ export function generateD3Chart(selector, tpl: [VisData, State]) {
 
   nodeS.enter()
     .append('circle')
-      .attr('fill', n => { return cfjjColor(n.depth); })
       .attr('cx', halfWidth)
       .attr('cy', halfHeight)
       .attr('r', 0)
     .merge(nodeS)
     .transition().duration(animationDuration)
+      .attr('fill', n => { return cfjjColor(n.depth); })
       .attr('cx', d => { return d.x; })
       .attr('cy', d => { return d.y; })
       .attr('r', d => { return d.r; });
