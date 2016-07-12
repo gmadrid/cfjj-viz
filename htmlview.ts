@@ -1,12 +1,12 @@
-import {h, svg, div, form, input, p} from '@cycle/dom';
+import { h, svg, div, form, input, p } from '@cycle/dom';
 import * as d3 from 'd3';
 import xs from 'xstream';
 
 import { Model } from './model';
 import { State } from './state';
 
-export const popupClass = '.categoryPopup'
-export const buttonName = '#randomButton'
+export const CategoryPopupClassName = '.categoryPopup'
+export const RandomButtonName = '#randomButton'
 
 function selectForArray(name: string, optionStrings: string[], lowIndex: number, highIndex: number, selectedIndex: number) {
   let options = [h('option', { attrs: {value: '' } })];
@@ -16,7 +16,7 @@ function selectForArray(name: string, optionStrings: string[], lowIndex: number,
     options.push(h('option', { attrs: {value: optionString, selected: i == selectedIndex } }, optionString));
   });
 
-  var select = h('select' + popupClass, options);
+  var select = h('select' + CategoryPopupClassName, options);
 
   return select;
 }
@@ -32,7 +32,7 @@ function control(state: State) {
 export function htmlView(model: Model): xs<any> {
   return model.state$.map(s => {
     return div([
-      div([input(buttonName, {attrs: {type:'button', value: 'Generate random data'}})]),
+      div([input(RandomButtonName, {attrs: {type:'button', value: 'Generate random data'}})]),
       control(s),
       div([
         h('svg#d3svg')

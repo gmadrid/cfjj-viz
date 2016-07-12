@@ -10,10 +10,10 @@ export function d3View(m) {
   return xs.combine(m.data$, m.state$);
 }
 
-function SliceNDice(arr: any, keys: string[]) {
-  return PartitionChildren(null, arr, '', keys, -1)[0];
+function sliceNDice(arr: any, keys: string[]) {
+  return partitionChildren(null, arr, '', keys, -1)[0];
 
-  function ArrayForKey(map, key) {
+  function arrayForKey(map, key) {
     let result = map.get(key);
     if (!result) {
       result = [];
@@ -22,12 +22,12 @@ function SliceNDice(arr: any, keys: string[]) {
     return result;
   }
 
-  function CurrentKeyValue(currObj, keys, currKeyIndex) {
+  function currentKeyValue(currObj, keys, currKeyIndex) {
     if (currKeyIndex < 0) return RootFakeKey;
     return currObj[keys[currKeyIndex]];
   }
 
-  function PartitionChildren(parent, children, lastIdValue, keys, currKeyIndex) {
+  function partitionChildren(parent, children, lastIdValue, keys, currKeyIndex) {
     if (currKeyIndex >= keys.length) { 
       children.forEach(c => { c.parent = parent; });
       return children; 
@@ -35,8 +35,8 @@ function SliceNDice(arr: any, keys: string[]) {
 
     let keyMap = d3.map();
     children.forEach(c => {
-      let currKeyValue = CurrentKeyValue(c, keys, currKeyIndex);
-      let currKeyArray = ArrayForKey(keyMap, currKeyValue);
+      let currKeyValue = currentKeyValue(c, keys, currKeyIndex);
+      let currKeyArray = arrayForKey(keyMap, currKeyValue);
       currKeyArray.push(c);
     });
 
@@ -48,14 +48,14 @@ function SliceNDice(arr: any, keys: string[]) {
         keyValue: k,
         parent: parent, 
         children: null };
-      newInnerNode.children = PartitionChildren(newInnerNode, v, newIdValue, keys, currKeyIndex + 1);
+      newInnerNode.children = partitionChildren(newInnerNode, v, newIdValue, keys, currKeyIndex + 1);
       newNodes.push(newInnerNode);
     });
     return newNodes;
   }
 }
 
-export function GenerateD3Chart(selector, tpl: [VisData, State]) {
+export function generateD3Chart(selector, tpl: [VisData, State]) {
   let [data, state] = tpl;
 
   // Configuration
@@ -65,7 +65,7 @@ export function GenerateD3Chart(selector, tpl: [VisData, State]) {
   let height = 600;
   let padding = 5;
 
-  let h = SliceNDice(data, keyArray);
+  let h = sliceNDice(data, keyArray);
   let cfjjColor = d3.scaleLinear()
     .domain([0, keyArray.length])
     .range(['#24567e', '#75c7f0']);

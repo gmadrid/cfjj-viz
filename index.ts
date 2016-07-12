@@ -1,13 +1,13 @@
 import xs from 'xstream';
-import {run} from '@cycle/xstream-run';
-import {makeDOMDriver} from '@cycle/dom';
+import { run } from '@cycle/xstream-run';
+import { makeDOMDriver } from '@cycle/dom';
 
-import {GenerateRandomData, VisData, VisDatum, CategoryNames} from './datagen'; 
-import { d3View, GenerateD3Chart } from './d3chart';
-import {makeD3Driver} from './d3driver';
-import { buttonName, htmlView, popupClass } from './htmlview';
+import { generateRandomData, VisData, VisDatum, CategoryNames } from './datagen'; 
+import { d3View, generateD3Chart } from './d3chart';
+import { makeD3Driver } from './d3driver';
+import { CategoryPopupClassName, htmlView, RandomButtonName } from './htmlview';
 import { Model } from './model';
-import {State} from './state';
+import { State } from './state';
 
 type Intent = {
   // Message that the categories in the control form have changed.
@@ -19,14 +19,14 @@ type Intent = {
 
 function intent(sources): Intent {
   return {
-    changeCategories$: sources.DOM.select(popupClass).events('change'),
-    generateData$: sources.DOM.select(buttonName).events('click')
+    changeCategories$: sources.DOM.select(CategoryPopupClassName).events('change'),
+    generateData$: sources.DOM.select(RandomButtonName).events('click')
   }
 }
 
 function model(intent): Model {
   let data$ = intent.generateData$.startWith(null)
-    .map(_ => { return GenerateRandomData(); });
+    .map(_ => { return generateRandomData(); });
 
   let state$: xs<State> = xs.combine(data$, intent.changeCategories$.startWith(null))
     .map(c => {
@@ -57,7 +57,7 @@ function main(sources) {
 
 const drivers: {[name: string]: Function} = {
   DOM: makeDOMDriver('#app'),
-  D3: makeD3Driver('#d3svg', GenerateD3Chart)
+  D3: makeD3Driver('#d3svg', generateD3Chart)
 }
 
 run(main, drivers);

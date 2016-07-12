@@ -22,7 +22,7 @@ export type VisData = Array<VisDatum>
 
 export let CategoryNames: string[] = ["Race", "Offense", "Stage"]
 
-export function GenerateRandomData() : VisData {
+export function generateRandomData() : VisData {
   let currentId = 1;
   let result: VisData = [];
   ['White','Latino','Black','Asian','Mix','Other'].forEach(race => {
