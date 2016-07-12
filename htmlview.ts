@@ -53,7 +53,7 @@ function control(state: State) {
 
   let foo = selectForArray('foobar', state.categories, 0, state.categories.length, state.selectedCategories[0][0], false);
 
-  return div([
+  return div('#formdiv', [
     h('form', { attrs: { id: 'controlForm'} }, selects)
     ]);
 }
@@ -62,10 +62,10 @@ export function htmlView(model: Model): xs<any> {
   return model.state$.map(s => {
     return div([
 //      div([input(RandomButtonName, {attrs: {type:'button', value: 'Generate random data'}})]),
-      control(s),
-      div([
+      div('#d3div', [
         h('svg#d3svg')
-      ])
+      ]),
+      control(s)
     ])
   });
 }
