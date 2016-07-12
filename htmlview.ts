@@ -32,7 +32,7 @@ function control(state: State) {
 export function htmlView(model: Model): xs<any> {
   return model.state$.map(s => {
     return div([
-      div([input(RandomButtonName, {attrs: {type:'button', value: 'Generate random data'}})]),
+//      div([input(RandomButtonName, {attrs: {type:'button', value: 'Generate random data'}})]),
       control(s),
       div([
         h('svg#d3svg')

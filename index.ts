@@ -2,12 +2,12 @@ import xs from 'xstream';
 import { run } from '@cycle/xstream-run';
 import { makeDOMDriver } from '@cycle/dom';
 
-import { generateRandomData, VisData, VisDatum, CategoryNames } from './datagen'; 
+import { generateRandomData, VisData } from './datagen'; 
 import { d3View, generateD3Chart } from './d3chart';
 import { makeD3Driver } from './d3driver';
 import { CategoryPopupClassName, htmlView, RandomButtonName } from './htmlview';
 import { Model } from './model';
-import { State } from './state';
+import { buildState, State } from './state';
 
 type Intent = {
   // Message that the categories in the control form have changed.
@@ -26,17 +26,20 @@ function intent(sources): Intent {
 
 function model(intent): Model {
   let data$ = intent.generateData$.startWith(null)
-    .map(_ => { return generateRandomData(); });
+    .map(_ => { return generateRandomData(); })
+    .remember();
 
   let state$: xs<State> = xs.combine(data$, intent.changeCategories$.startWith(null))
-    .map(c => {
+    .map(buildState)
+    .remember();
+/*    .map(c => {
       let [data, changeEvent] = c;
       return {
         categories: CategoryNames,
         selectedCategories: [<[string, string]>[CategoryNames[0], "bamsoo"]]
       };
     })
-    .remember();
+    .remember();*/
 
   return {
     state$: state$,
