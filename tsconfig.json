@@ -5,7 +5,7 @@
     "sourceMap": true
   },
   "files": [
-    "index.ts",
+    "src/index.ts",
     "typings/index.d.ts"
   ]
 }

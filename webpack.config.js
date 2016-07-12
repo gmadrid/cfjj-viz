@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 module.exports = {
-  entry: './index.ts',
+  entry: './src/index.ts',
   output: {
     filename: 'bundle.js'
   },
