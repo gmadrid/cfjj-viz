@@ -40,3 +40,4 @@ typings
 # Outputs
 bundle.js
 *.map
+dist
